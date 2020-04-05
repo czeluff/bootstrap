@@ -2,7 +2,7 @@
 
 ## Installation:
 
-Arch Linux
+Arch Linux:
 
 ```
 curl -LO chadzeluff.xyz/arch-setup.sh | sh
