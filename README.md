@@ -16,7 +16,7 @@ After maintaining a bootstrapping configuration for macOS for so long, I wanted 
 
 ## What changes have you made?
 
-If you don't want to peruse the commits, here are the highlights:
+The most notable differences:
 
 - Removal of the `dialog` package
 - Allows the user to `sudo` without passwords, ever
