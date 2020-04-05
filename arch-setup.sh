@@ -12,7 +12,7 @@ while getopts ":h:r:p" o; do case "${o}" in
 esac done
 
 [ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/czeluff/dotfiles.git"
-[ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/czeluff/progs/master/archprogs.csv"
+[ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/czeluff/bootstrap/master/progs.csv"
 
 ### FUNCTIONS ###
 
