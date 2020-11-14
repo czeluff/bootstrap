@@ -1,9 +1,7 @@
 install brew (it now installs the xcode command line tools for you wtf)
-hide menu bar
-hide dock, shrink, move to left (there's scripts to make it appear and disappear faster that you found on Snazzy Labs YouTube, big 90 min video)
 user account in /etc/sudoers: czeluff ALL = (ALL) NOPASSWD: ALL
-iTerm2, perhaps some configuration files for it?
-max out iTerm scrolling speed (left/right)
+iTerm2, perhaps some configuration files for it? defaults read com.googlecode.iterm2 
+max out iTerm scrolling speed (left/right) - perhaps consider Alacritty as your Terminal, instead
 elixir
 go
 python3 (dev things should cover both Linux and macOS, so htop doesnt need to be listed)
@@ -14,32 +12,34 @@ zsh-syntax-highlighting https://github.com/zsh-users/zsh-syntax-highlighting/blo
 iterm2 material design
 ZSH Pure prompt
 softe wallpaper by jivebs
-
-maybes:
+Vanilla app
+install global gitignore in .config
+vscode + all extensions should be installed via cmd line
+discord
+Slack
 daisydisk (you have a license for it)
 deckset
 redacted
 sip (is Kelir a better version?)
-Slack (necessary evil?)
 Transmit
-Visual Studio Code?
 keka
 helium
-discord
 speedtest-cli
 ack
+figlet
+Plug for vim
+neofetch
+tmux
 
 download dotfiles, then just make your dotfiles point to the repo's dotfiles via symlinks
 
 Finder Preferences: New Finder windows open Home, hide all icons, keep folders on top, show hidden files, show Path bar
 
-defaults write com.apple.dock expose-animation-duration -int 0 # removes Expose animation time
-defaults write com.apple.universalaccess reduceMotion -bool true
-defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 30
-defaults write -g PMPrintingExpandedStateForPrint -bool true
-sudo nvram StartupMute=%00
-
-defaults write com.apple.dock autohide-delay -float 0; killall Dock (reduces delay)
-defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock (removes animation)
-
 https://github.com/zellwk/dotfiles has example of calling right setup script for mac vs pc, symlinking dotfiles properly, 
+another goot dotfiler https://github.com/vitorgalvao/dotfiles
+fix shell scripts to specify use of zsh and not bash
+brew.sh needs to utilize the CSV that contains the list of programs to install, and install actual package (both regular and casks)
+link-dotfiles doesn't look for dotfiles in right place, or symlink the source properly. (destination is fine)
+mac-os.sh can ditch the sudo loop at the top if you can properly set /etc/sudoers ahead of time
+install gsed, see if Luke had a better way of setting computer name and host name
+custom wallpaper image probably doesn't work
