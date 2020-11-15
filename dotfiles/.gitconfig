@@ -2,4 +2,4 @@
 	email = czeluff@gmail.com
 	name = Chad Zeluff
 [core]
-	excludesfile = /Users/czeluff/.gitignore_global
+	excludesfile = /Users/czeluff/.config/.gitignore_global

@@ -50,10 +50,16 @@ brew install tmux
 brew install speedtest-cli
 
 # Cloned
+
+mkdir -p ~/.vim/autoload
+mkdir -p ~/.vim/backups
+mkdir -p ~/.vim/swaps
+mkdir -p ~/.vim/undo
+
 # Pure ZSH prompt
-mkdir -p "$HOME/.config/zsh"; git clone https://github.com/sindresorhus/pure.git "$HOME/.config/zsh/pure"
+git clone https://github.com/sindresorhus/pure.git "$HOME/.config/zsh/pure"
 
 # Vim Plug
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 echo "Finished installing packages."
