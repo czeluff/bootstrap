@@ -15,6 +15,7 @@ brew install gsed
 brew install zsh-syntax-highlighting
 
 # Mac App Store - redacted, helium, apple developer, pages, numbers, keynote, xcode
+read -p "Sign-in to the App Store, then press [Return]"
 mas install 984968384
 mas install 1054607607
 mas install 640199958
@@ -50,7 +51,6 @@ brew install tmux
 brew install speedtest-cli
 
 # Cloned
-
 mkdir -p ~/.vim/autoload
 mkdir -p ~/.vim/backups
 mkdir -p ~/.vim/swaps
