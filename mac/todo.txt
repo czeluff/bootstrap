@@ -1,0 +1,6 @@
+The following changes need to be made manually:
+
+- Enable Remote Login in Sharing
+- Enable Battery Percentage in Dock & Menubar -> Battery
+- Reduce Motion in Accessibility -> Display
+- Set wallpaper in Pictures
