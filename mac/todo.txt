@@ -4,3 +4,4 @@ The following changes need to be made manually:
 - Enable Battery Percentage in Dock & Menubar -> Battery
 - Reduce Motion in Accessibility -> Display
 - Set wallpaper in Pictures
+- Set iTerm theme to Default-iTerm.json

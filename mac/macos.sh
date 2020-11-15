@@ -416,4 +416,11 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 # Disable continuous spell checking
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
 
+###############################################################################
+# Terminal & iTerm 2                                                          #
+###############################################################################
+
+# Install the Material theme for iTerm
+open "mac/material-design-colors.itermcolors"
+
 echo "Done. Note that some of these changes require a logout/restart to take effect."

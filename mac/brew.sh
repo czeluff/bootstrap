@@ -24,6 +24,8 @@ mas install 409183694
 mas install 497799835
 
 # Mac Cask Tap
+brew tap epk/epk
+brew cask install font-sf-mono-nerd-font
 brew cask install iterm2
 brew cask install discord
 brew cask install slack
@@ -35,7 +37,7 @@ brew cask install keka
 brew cask install amethyst
 brew cask install vanilla
 
-# All Linux
+# Linux
 brew install elixir
 brew install go
 brew install python3
@@ -46,5 +48,12 @@ brew install figlet
 brew install neofetch
 brew install tmux
 brew install speedtest-cli
+
+# Cloned
+# Pure ZSH prompt
+mkdir -p "$HOME/.config/zsh"; git clone https://github.com/sindresorhus/pure.git "$HOME/.config/zsh/pure"
+
+# Vim Plug
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 echo "Finished installing packages."

@@ -1,0 +1,5 @@
+[user]
+	email = czeluff@gmail.com
+	name = Chad Zeluff
+[core]
+	excludesfile = /Users/czeluff/.gitignore_global
