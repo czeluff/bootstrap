@@ -19,11 +19,18 @@ endif
 " Enable relative line numbers
 :set rnu
 
+" Search case insensitive, unless casing is specified
+:set ignorecase
+:set smartcase
+
 " Enable syntax highlighting
 syntax on
 
 " Make tabs as wide as two spaces
 set tabstop=2
+
+" Improve regex searching by auto-escaping
+nnoremap / /\v
 
 " Themeing
 " Set iTerm2 to xterm-256color-italic
