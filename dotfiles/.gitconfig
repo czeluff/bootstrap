@@ -3,3 +3,5 @@
 	name = Chad Zeluff
 [core]
 	excludesfile = /Users/czeluff/.config/.gitignore_global
+[github]
+	user = czeluff
