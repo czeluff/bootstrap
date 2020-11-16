@@ -43,12 +43,12 @@ brew install elixir
 brew install go
 brew install python3
 brew install youtube-dl
-brew install tldr
 brew install ack
 brew install figlet
 brew install neofetch
 brew install tmux
 brew install speedtest-cli
+brew install autojump
 
 # Cloned
 mkdir -p ~/.vim/autoload

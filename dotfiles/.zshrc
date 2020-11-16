@@ -2,6 +2,7 @@ export CLICOLOR=1
 export VISUAL=vim
 export EDITOR=$VISUAL
 
+# pure prompt
 fpath+=$HOME/.config/zsh/pure
 autoload -U promptinit; promptinit
 prompt pure
